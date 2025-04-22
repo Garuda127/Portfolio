@@ -1,1 +1,0 @@
-import{c as f}from"./client.C4t7oQty.js";export{f as default};
