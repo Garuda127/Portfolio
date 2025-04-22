@@ -1,0 +1,38 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCE = [
+  {
+    date: "2023 - 2025",
+    title: "Web Development",
+    company: "IGRTEC SA.CV",
+    description:
+      "I lead and develop full-stack software solutions using ASP.NET Core, Vue.js, Electron, and modern web technologies, delivering ERP systems, CMS platforms, PWAs, and administrative tools with features like offline access, e-invoicing, POS integration, and dynamic content management to streamline and optimize business operations.",
+  },
+  {
+    date: "2022 - 2023",
+    title: "Software Development",
+    company: "BITMART",
+    description:
+      "At BITMART, I contributed as a Web Developer, focusing on backend and frontend solutions for satellite network monitoring. I developed REST API endpoints to verify topological obstructions in satellite antennas and implemented a real-time network topology visualization tool to monitor equipment status.Tech stack: ReactJS, TailwindCSS, Express, JWT, Redux Toolkit.",
+  },
+];
+---
+
+<div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+  <ol class="relative mt-10">
+    {
+      EXPERIENCE.map((experience, index) => (
+        <li class="">
+          <article role="article" aria-labelledby={`experience-title-${index}`}>
+            <div
+              class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
+              aria-describedby={`experience-title-${index}`}
+            >
+              <ExperienceItem {...experience} />
+            </div>
+          </article>
+        </li>
+      ))
+    }
+  </ol>
+</div>
