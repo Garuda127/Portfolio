@@ -1,17 +1,17 @@
 ---
 layout: /src/layouts/ProjectLayout.astro
-title: "NeonMint"
+title: "Test"
 pubDate: 2025-04-05
-description: "NeonMint is a modern, minimalist template crafted for developers and digital creatives."
+description: "Description Text."
 languages: ["astro", "tailwind", "cloudflare", "javascript", "vercel"]
 image:
-  url: "/images/projects/neonmint.webp"
+  url: "/images/projects/taquizaselgarage.png"
   alt: "Thumbnail of Astro arches."
 ---
 
-**NeonMint** is a modern, minimalist web template created for developers, designers, and digital creatives. This project aims to offer an elegant and functional visual experience, combining a dark-toned aesthetic with mint green accents to highlight content without distractions.
+**Description** lorem ipsum.
 
-Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on speed, modularity, and a component-centered architecture.
+Developed with **Astro** and styled with **TailwindCSS**, focuses on speed, modularity, and a component-centered architecture.
 
 ## 🧩 Features
 
@@ -32,10 +32,10 @@ Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on sp
 
 ## 🌐 Demo
 
-👉 [View live demo](https://github.com/EFEELE/NeonMint)
+👉 [View live demo](https://github.com/Garuda127)
 
 ## 🎯 Objective
 
-The purpose of NeonMint is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
+Explain what the project aims to achieve.
 
-🚀 _Developed by EFEELE._
+🚀 _Developed by Garuda._
