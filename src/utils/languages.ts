@@ -110,6 +110,22 @@ export const languages: Record<string, Language> = {
     name: "DeepSeek",
     iconName: "deepseek",
   },
+  react: {
+    name: "React",
+    iconName: "react",
+  },
+  flutter: {
+    name: "Flutter",
+    iconName: "flutter",
+  },
+  dart: {
+    name: "Dart",
+    iconName: "dart",
+  },
+  jquery: {
+    name: "jQuery",
+    iconName: "jquery",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
