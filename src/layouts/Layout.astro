@@ -16,7 +16,7 @@ const siteUrl = new URL(Astro.url).origin;
 const SEO = {
   sitename: "Portfolio by MLP🚀",
   url: siteUrl,
-  locale: "en_US",
+  locale: "es_ES",
   author: "Martín Lara | Garuda",
   twitter: "@",
 };
@@ -46,6 +46,14 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta name="author" content={SEO.author} />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href={`${Astro.site}${Astro.url.pathname}`} />
+    <meta name="geo.region" content="MX-GUA" />
+    <meta name="geo.placename" content="Moroleón" />
+    <meta name="ICBM" content="20.1866,-100.3850" />
+    <meta
+      name="keywords"
+      content="Moroleón, desarrollador, programador, software, tecnología, desarrollo web, JavaScript, TypeScript, C#, Angular, Vue, NestJS, ASP.NET Core, clean code, software developer, Moroleón GTO"
+    />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
